@@ -1,0 +1,106 @@
+.p_color {
+    color: #6D6D6D;
+}
+
+.generic_heading_left {
+    position: relative;
+    align-items: end;
+    margin-bottom: 50px !important;
+    margin: auto !important;
+    z-index: -1 !important;
+}
+
+.generic_heading_left::before {
+    content: ' ';
+    width: 90px;
+    height: 8px;
+    background-color: #5A8C75;
+    position: absolute;
+    top: 100px;
+    border-radius: 5px;
+}
+
+@media (max-width: 400px) {
+
+    .generic_heading_left{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .generic_heading_left::before {
+      width: 100px;
+      top: 95px;
+    }
+  }
+
+.course_house_bg{
+    background-color: #5A8C75 !important;
+    color: white !important;
+}
+
+.generic_heading_left_white{
+    position: relative;
+    align-items: end;
+    margin-bottom: 50px !important;
+    margin: auto !important;
+}
+.generic_heading_left_white::before{
+    content: ' ';
+    width: 180px;
+    height: 8px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50px;
+    border-radius: 5px;
+}
+@media (max-width: 400px) {
+
+    .generic_heading_left_white{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .generic_heading_left_white::before {
+      width: 100px;
+      top: 40px;
+    }
+  }
+
+.generic_heading_left_One{
+    position: relative;
+    align-items: end;
+    margin-bottom: 50px !important;
+    margin: auto !important;
+}
+.generic_heading_left_One::before{
+    content: ' ';
+    width: 180px;
+    height: 8px;
+    background-color: #5A8C75;
+    position: absolute;
+    top: 50px;
+    border-radius: 5px;
+}
+@media (max-width: 400px) {
+
+    .generic_heading_left_One{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .generic_heading_left_One::before {
+      width: 100px;
+      top: 40px;
+    }
+  }
+
+.course_you_bg{
+    background-image: url(../../assets/greenpattern.png);
+    position: relative;
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+}

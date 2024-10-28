@@ -1,0 +1,133 @@
+.box{
+    background-color: 
+    #EEEEEE;  
+    /* color: #ffffff; */
+    border-radius: 50px;
+    z-index: 2;
+  }
+  .generic_heading_left {
+    position: relative;
+    align-items: end;
+    margin-bottom: 50px !important;
+    margin: auto !important;
+}
+
+.generic_heading_left::before {
+    content: ' ';
+    width: 164px;
+    height: 8px;
+    background-color: #5A8C75;
+    position: absolute;
+    top: 59px;
+    border-radius: 5px;
+}
+.gradientCircleleft:before  {
+  content: "";
+  position: absolute;
+  /* right: -11%; */
+  bottom: 0;
+  width: 387px;
+  height: 671px;
+  background: radial-gradient(circle, rgba(0, 143, 113, 0.29) 32%, rgba(255, 255, 255, 0) 66%);
+  top: 6%;
+  background-position: center;
+  z-index: 3 !important;
+  left: -10%;
+}
+.gradientCircle:before  {
+  content: "";
+  position: absolute;
+  right: -99px;
+  bottom: 0;
+  width: 343px;
+  height: 625px;
+  background: radial-gradient(circle, rgb(158 212 180 / 39%) 30%, rgb(255 255 255 / 0%) 51%);
+  top: 95px;
+  background-position: center;
+  z-index: 3 !important;
+}
+.gradientCircle1:before  {
+  content: "";
+  position: absolute;
+  right: -11%;
+  bottom: 0;
+  width: 387px;
+  height: 671px;
+  background: radial-gradient(circle, rgba(0, 143, 113, 0.35) 32%, rgba(255, 255, 255, 0) 51%);
+  top: -23%;
+  background-position: center;
+  z-index: 3 !important;
+}
+.BookRoom_heading{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.BookRoom_heading::before {
+  content: ' ';
+  width: 220px;
+  height: 8px;
+  background-color: white;
+  position: absolute;
+  top: 88px;
+  border-radius: 5px;
+}
+.arrow_img{
+position: absolute;
+top: 57%;
+right: 34%;
+
+}
+.gradientCircleFooter:before  {
+  content: "";
+  position: absolute;
+  right: -11%;
+  bottom: 0;
+  width: 343px;
+  height: 625px;
+  background: radial-gradient(circle, rgba(0, 143, 113, 0.19) 30%, rgba(255, 255, 255, 0) 51%);
+
+  top: -23%;
+  background-position: center;
+  z-index: 3 !important;
+}
+
+.chartgradientCircle:before  {
+  content: "";
+  position: absolute;
+  right: -11%;
+  bottom: 0;
+  width: 343px;
+  height: 625px;
+  background: radial-gradient(circle, rgba(0, 143, 113, 0.19) 30%, rgba(255, 255, 255, 0) 51%);
+
+  top: -43%;
+  background-position: center;
+  z-index: -1 !important;
+}
+@media only screen and (max-width: 600px) {
+
+  .generic_heading_left::before {
+    display: none;
+}
+.mobile_arrow{
+transform: rotate(90deg);
+}
+}  
+.zain {
+  position: relative;
+  border-radius: 50px;
+  overflow: hidden; 
+}
+
+.zain::after {
+  position: absolute;
+  top: 0;
+  left: 0; 
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.55); 
+  border-radius: inherit; 
+  z-index: 1; 
+}

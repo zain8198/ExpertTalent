@@ -1,0 +1,10 @@
+.bar_container{
+    background-color: white;
+    margin-left:102px ;
+
+}
+@media only screen and (max-width: 600px) {
+    .bar_container {
+      margin-left: 0px;
+  }
+}

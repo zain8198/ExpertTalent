@@ -1,0 +1,33 @@
+.box{
+    height: 100vh !important;
+  background-color: 
+  #5A8C75;  
+  color: #ffffff;
+  padding: 100px;
+  width: 90%;
+  margin: auto;
+  border-radius: 50px;
+  margin-top: 50px;
+}
+.custom_btn_outline_dark {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid white; 
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .custom_btn_outline_dark:hover {
+    color: #343a40; 
+    background-color: #fff;
+  }
+  @media only screen and (min-width: 1024px) and (max-width: 1152px)  {
+    .Hero_image{
+      height: 500px !important;
+    }
+    .box{
+    padding: 70px;
+ 
+  }
+    }

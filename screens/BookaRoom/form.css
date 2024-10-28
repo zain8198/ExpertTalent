@@ -1,0 +1,31 @@
+.background {
+    /* background-image: url('../../assets/puzzlePicture.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.actionBtn{
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+    background-color: #7C2916;
+    text-align: center;
+    align-items: center;
+    /* font-family: Roboto ; */
+}
+
+.no-outline:focus {
+    outline: none;
+}

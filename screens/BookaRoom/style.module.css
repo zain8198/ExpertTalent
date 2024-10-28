@@ -1,0 +1,56 @@
+.modallg{
+        max-width: 1000px;
+    }
+
+
+    .gradientCircle {
+        content: "";
+        position: absolute;
+        right: -100px;
+        bottom: 0px;
+        width: 639px;
+        height: 1030px;
+        background: radial-gradient(circle, rgb(158 212 180 / 39%) 30%, rgb(255 255 255 / 0%) 51%);
+        top: -258px;
+        background-position: center;
+        z-index: -1 !important;
+    }
+    
+    .gradientCircleLeft {
+        content: "";
+        position: absolute;
+        left: -304px;
+        bottom: 0;
+        width: 639px;
+        height: 1030px;
+        background: radial-gradient(circle, rgb(0 54 80 / 20%) 30%, rgb(0 54 80 / 0%) 51%);
+        top: -388px;
+        background-position: center;
+         z-index: 0;
+      }
+    
+    .gradientCircleLeftTop {
+        content: "";
+        position: absolute;
+        left: -304px;
+        bottom: 0;
+        width: 639px;
+        height: 730px;
+        background: radial-gradient(circle, rgb(0 54 80 / 20%) 30%, rgb(0 54 80 / 0%) 51%);
+        top: 20px;
+        background-position: center;
+         z-index: 0;
+      }
+    .gradientCircleLeftTwo {
+        content: "";
+        position: absolute;
+        left: -304px;
+        bottom: 0;
+        width: 639px;
+        height: 630px;
+        background: radial-gradient(circle, rgb(0 54 80 / 20%) 30%, rgb(0 54 80 / 0%) 51%);
+        top: -50px;
+        background-position: center;
+         z-index: 0;
+      }
+      

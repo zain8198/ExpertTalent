@@ -1,0 +1,130 @@
+
+.Toastify__toast-container {
+  margin-right: 90px !important;
+  border-radius: 0px 0px 0px 0px !important;
+  -webkit-border-radius: 0px 0px 0px 0px !important;
+  -moz-border-radius: 0px 0px 0px 0px !important;
+  -ms-border-radius: 0px 0px 0px 0px !important;
+  -o-border-radius: 0px 0px 0px 0px !important;
+}
+
+.Toastify__toast--warning {
+  color: #173237;
+  width: 400px !important;
+  border-radius: 0px 0px 0px 0px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Toastify__toast--error {
+  width: 400px !important;
+  border-radius: 0px 0px 0px 0px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Toastify__toast--success {
+  width: 400px !important;
+  border-radius: 0px 0px 0px 0px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Toastify__toast--info {
+  width: 400px !important;
+  border-radius: 0px 0px 0px 0px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Toastify__toast--error::after {
+  position: relative;
+  padding-left: 22px !important;
+  color: white;
+  width: 22px !important;
+  height: 19px !important;
+}
+
+.Toastify__toast--error::before {
+  /* content: url("../../../public/media/svg/toasticons/WarningIconWhite.svg");
+  padding-left: 8px !important;
+  padding-top: 4px !important;
+  margin-right: 5px !important; */
+}
+
+.Toastify__toast--success::before {
+  /* content: url("../../../public/media/svg/toasticons/check_circle.svg");
+  padding-left: 8px !important;
+  padding-top: 4px !important;
+  margin-right: 5px !important; */
+}
+
+.Toastify__toast--success::after {
+  position: relative;
+  padding-left: 22px !important;
+  color: white;
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.Toastify__toast--info::after {
+  position: relative;
+  padding-left: 22px !important;
+  color: white;
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.Toastify__toast--info::before {
+  /* content: url("../../../public/media/svg/toasticons/InfoWhite.svg");
+  padding-left: 8px !important;
+  padding-top: 4px !important;
+  margin-right: 5px !important; */
+}
+
+.Toastify__toast--warning::after {
+  position: relative;
+  padding-left: 22px !important;
+  color: white;
+  width: 22px !important;
+  height: 19px !important;
+}
+
+.Toastify__toast--warning::before {
+  /* content: url("../../../public/media/svg/toasticons/WarningIcon.svg");
+  padding-left: 8px !important;
+  padding-top: 4px !important;
+  margin-right: 5px !important;
+  filter: invert(14%) sepia(20%) saturate(1275%) hue-rotate(142deg)
+    brightness(95%) contrast(90%); */
+}
+
+.Toastify__toast-body {
+  padding-left: 8px !important;
+  font-weight: 700;
+}
+
+.Toastify__close-button > svg {
+  height: 16px !important;
+  width: 16px !important;
+  color: white !important;
+}
+
+.Toastify__toast--warning .Toastify__close-button > svg {
+  height: 16px !important;
+  width: 16px !important;
+  color: #173237 !important;
+}
+
+.Toastify__close-button {
+  padding-top: 8px !important;
+  padding-right: 11px !important;
+}
+
+.Toastify__toast {
+  min-height: 56px !important;
+}

@@ -1,0 +1,23 @@
+.gradientCircle:before  {
+  content: "";
+  position: absolute;
+  right: -192px;
+  bottom: 0;
+  width: 597px;
+  height: 783px;
+  background: radial-gradient(circle, rgb(158 212 180 / 39%) 30%, rgb(255 255 255 / 0%) 51%);
+  top: -194px;
+  background-position: center;
+  z-index: -1 !important;
+  }
+  .gradientCircleLeft:before  {
+    content: "";
+    position: absolute;
+    left: -171px;
+    width: 597px;
+    height: 783px;
+    background: radial-gradient(circle, rgb(158 212 180 / 39%) 30%, rgb(255 255 255 / 0%) 51%);
+    bottom: -277px;
+    background-position: center;
+    z-index: -1 !important;
+  }

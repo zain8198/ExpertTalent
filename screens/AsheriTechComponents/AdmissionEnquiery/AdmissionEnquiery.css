@@ -1,0 +1,55 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.background {
+    background-image: url('../../../assets/puzzlePicture.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.actionBtn {
+    width: 25%;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+    background-color: #7C2916;
+    text-align: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.no-outline:focus {
+    outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .form-container {
+        width: 95%;
+        margin-top: 280px;
+    }
+
+    .form_textField {
+        margin-bottom: 10px !important;
+    }
+}

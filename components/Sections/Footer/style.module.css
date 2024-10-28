@@ -1,0 +1,32 @@
+.footer_container {
+    background-color: #5A8C75;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.containerOne {
+    background-color: #57AD88;
+    border-radius: 52px;
+    padding: 30px 40px;
+    margin: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.containerOnePiece {
+    background-color: #74C2A0;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.containerTwo {
+    background-color: #57AD88;
+    border-radius: 30px;
+    margin: 5px;
+    padding: 30px 40px;
+    width: 95%;
+    height: auto;
+}
+
+
